@@ -1,5 +1,5 @@
 # spring-boot-demo 项目 todo-list
-## 模块计划(已完成：40 / 51)
+## 模块计划(已完成：44 / 54)
 
 - [x] ~~spring-boot-demo-helloworld（Helloworld 示例）~~
 - [x] ~~spring-boot-demo-properties（读取配置文件信息）~~
@@ -30,7 +30,7 @@
 - [x] ~~spring-boot-demo-rbac-security（实现基于 RBAC 的权限模型 - Spring Security）~~
 - [ ] spring-boot-demo-rbac-shiro（实现基于 RBAC 的权限模型 - shiro）
 - [x] ~~spring-boot-demo-session（统一 Session 管理）~~
-- [ ] spring-boot-demo-session（OAuth2 认证）
+- [ ] spring-boot-demo-oauth（OAuth2 认证）
 - [ ] spring-boot-demo-social（第三方授权验证，实现 QQ、微信、GitHub 等第三方登录）
 - [x] ~~spring-boot-demo-zookeeper（使用 zookeeper 结合AOP实现分布式锁）~~
 - [x] ~~spring-boot-demo-mq-rabbitmq（集成消息中间件 - RabbitMQ）~~
@@ -49,9 +49,12 @@
 - [x] ~~spring-boot-demo-mongodb（集成 MongoDb）~~
 - [x] ~~spring-boot-demo-neo4j（集成 neo4j 图数据库）~~
 - [x] ~~spring-boot-demo-docker（打包成 docker 镜像）~~
-- [ ] spring-boot-demo-multi-datasource-jpa（集成JPA多数据源）
-- [ ] spring-boot-demo-multi-datasource-mybatis（集成mybatis多数据源）
-- [ ] spring-boot-demo-sharding-jdbc（集成 sharding-jdbc 实现分库分表）
+- [x] ~~spring-boot-demo-multi-datasource-jpa（集成JPA多数据源）~~
+- [x] ~~spring-boot-demo-multi-datasource-mybatis（集成mybatis多数据源）~~
+- [x] ~~spring-boot-demo-sharding-jdbc（集成 sharding-jdbc 实现分库分表）~~
+- [ ] spring-boot-demo-tio（集成 tio）
+- [ ] spring-boot-demo-grpc（集成grpc，配置tls/ssl）参见[ISSUE#5](https://github.com/xkcoding/spring-boot-demo/issues/5)
+- [x] ~~spring-boot-demo-codegen（集成 velocity 自动生成代码）~~
 
 ### 备注
 
