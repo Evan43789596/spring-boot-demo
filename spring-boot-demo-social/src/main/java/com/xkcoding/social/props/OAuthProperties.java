@@ -1,4 +1,4 @@
-package com.xkcoding.oauth.config.props;
+package com.xkcoding.social.props;
 
 import lombok.Data;
 import me.zhyd.oauth.config.AuthConfig;
@@ -23,8 +23,32 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "oauth")
 public class OAuthProperties {
     /**
+     * QQ 配置
+     */
+    private AuthConfig qq;
+
+    /**
      * github 配置
      */
-    private CommonProperties github;
-    private CommonProperties wechat;
+    private AuthConfig github;
+
+    /**
+     * 微信 配置
+     */
+    private AuthConfig wechat;
+
+    /**
+     * Google 配置
+     */
+    private AuthConfig google;
+
+    /**
+     * Microsoft 配置
+     */
+    private AuthConfig microsoft;
+
+    /**
+     * Mi 配置
+     */
+    private AuthConfig mi;
 }
